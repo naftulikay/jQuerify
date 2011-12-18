@@ -1,0 +1,5 @@
+#jQuerify#
+
+A pretty simple userscript for Chrome, Firefox, and more that injects jQuery into every page which doesn't have it already. 
+
+Basically, just install this to Greasemonkey or just open the script in Chrome, and the latest jQuery 1.x release will be added to all pages so you can always pop open a console and expect jQuery support. 
