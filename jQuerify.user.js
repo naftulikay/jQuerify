@@ -8,7 +8,6 @@
 // @license         GPL http://www.gnu.org/copyleft/gpl.html
 // ==/UserScript==
 
-document.addEventListener("ready", function() {
     var scripts = document.getElementsByTagName("script");
     var script = null;
 
@@ -40,4 +39,3 @@ document.addEventListener("ready", function() {
         script.src = "http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js";
         document.getElementsByTagName("body")[0].appendChild(script);
     }
-});
